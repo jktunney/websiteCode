@@ -1,11 +1,12 @@
 <html>
-<head>
-<title>Leader Calendars</title>
 
-<link rel="stylesheet" type="text/css" href="/page.css">
+    <head>
 
+        <title>Simple jQuery: Hide/Show divs with .toggle() and .slidetoggle()</title>
 
-/*<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ 
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
     <script type="text/javascript">
 
@@ -16,13 +17,13 @@
         });
     });
 
-    </script>*/
+    </script>
 
- </head>
+    </head>
 
 <body>
-<label><input id="rdb1" type="radio" name="toggler" value="1" checked = "checked"/>Free Classes</label>
-<label><input id="rdb2" type="radio" name="toggler" value="2" />Dufus</label>
+<label><input type = "image" id="rdb1" type="button" name="toggler" value="1" checked = "checked" src = "me.png"/></br> Jake's Challendar</label>
+<label><input type = "image" id="rdb1" type="button" name="toggler" value="2" checked = "checked" src = "funnFace.png"/></br>Other Calendar</label>
 
 
 
@@ -53,9 +54,41 @@
   <iframe src="https://calendar.google.com/calendar/embed?src=jake%40marylandfitnesschallenge.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 
+
+
+</div>
+
 </body>
 
 </html>
 
-
-
+<style>
+@media (max-width: 550px) {
+    .big-container {
+        display: none;
+    }
+}
+@media (min-width: 550px) {
+    .small-container {
+        display: none;
+    }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    /*top: 10;
+    left: 10;
+    width: 100%;
+    height: 100%;*/
+}
+</style>
