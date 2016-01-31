@@ -24,12 +24,20 @@
     </head>
 
 <body>
-<label><input type = "image" id="rdb1" type="button" name="toggler" value="1" checked = "checked" src = "me.png"/></br> Jake's Calendar</label>
-<label><input type = "image" id="rdb1" type="button" name="toggler" value="2" checked = "checked" src = "funnFace.png"/></br>Other Calendar</label>
+
+<label>
+
+<input type = "image" id="rdb1" type="button" name="toggler" value="1" checked = "checked" src = "me.png"/>
+</br> Jake's Calendar</label>
+
+<label>
+
+<input type = "image" id="rdb1" type="button" name="toggler" value="2" checked = "checked" src = "funnFace.png"/></br>Other Calendar
+
+</label>
 
 
-
-<div id="blk-1" class="toHide" style="display">
+<div id="blk-1" class="toHide" style="display: none">
 
 <!-- big i-frame -->
 <div class="responsive-iframe-container big-container"> <iframe src="https://www.google.com/calendar/embed?src=marylandfitnesschallenge.com_pcijbf3jraq5qg0bjbm8142tto%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -64,33 +72,3 @@
 
 </html>
 
-<style>
-@media (max-width: 550px) {
-    .big-container {
-        display: none;
-    }
-}
-@media (min-width: 550px) {
-    .small-container {
-        display: none;
-    }
-}
-/* Responsive iFrame */
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: absolute;
-    padding: 10px 10px 10px 10px;
-    /*top: 10;
-    left: 10;
-    width: 100%;
-    height: 100%;*/
-}
-</style>
