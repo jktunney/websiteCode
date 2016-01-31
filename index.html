@@ -2,24 +2,14 @@
 
     <head>
 
-        <title>Simple jQuery: Hide/Show divs with .toggle() and .slidetoggle()</title>
+        <title>Leader Calendars</title>
 
  
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
        <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script type="text/javascript">
-
-      $(function() {
-        $("[name=toggler]").click(function(){
-            $('.toHide').hide();
-            $("#blk-"+$(this).val()).show('slow');
-        });
-    });
-
-    </script>
+       <script src="script.js"></script>
 
     </head>
 
@@ -27,12 +17,17 @@
 
 <label>
 
-<input type = "image" id="rdb1" type="button" name="toggler" value="1" checked = "checked" src = "me.png"/>
-</br> Jake's Calendar</label>
+<input type = "image" class = "calendar-button" id="rdb1" type="button" name="toggler" value="1" checked = "checked" src = "me.png"/>
+
+Jake's Calendar
+
+</label>
 
 <label>
 
-<input type = "image" id="rdb1" type="button" name="toggler" value="2" checked = "checked" src = "funnFace.png"/></br>Other Calendar
+<input type = "image" class = "calendar-button" id="rdb1" type="button" name="toggler" value="2" checked = "checked" src = "funnFace.png"/>
+
+Other Calendar
 
 </label>
 
@@ -63,7 +58,6 @@
 <!-- small i-frame -->
   <iframe src="https://calendar.google.com/calendar/embed?src=jake%40marylandfitnesschallenge.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
-
 
 
 </div>
