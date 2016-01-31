@@ -1,0 +1,108 @@
+#anchor {
+  align-content: center;
+}
+
+#myIframe  {
+margin: auto;
+}
+
+.transparent-header.collection-type-page .banner-thumbnail-wrapper{
+    padding: 10px 0px 50px;
+}
+
+#page {
+  padding: .1px;
+}
+
+h1 {
+  padding: 0px .1px;
+}
+
+#myContent {
+    display:none;
+}
+
+#block-yui_3_17_2_5_1452007999686_12195{
+  padding: 0px,
+  
+}
+
+#block-yui_3_17_2_5_1451355478285_8492{
+  padding: 50px 0px 0px 5px;
+  
+}
+
+#block-yui_3_17_2_12_1446700016358_8382{
+  padding: 15px 0px 0px 15px; 
+}
+
+//opening quote padding
+#block-yui_3_17_2_61_1452983471618_24990{
+  padding: 20px 10px 50px 5px; 
+}
+
+//take action padding: 
+#block-yui_3_17_2_12_1446700016358_6194{
+  padding: 20px 10px 50px 5px; 
+}
+
+//sponsorInstructor padding
+#block-7c417f083bd9b77bbc88{
+  padding: 20px 10px 50px 5px; 
+}
+
+//charitable organization padding
+#block-bd12616d73571d9a44d0{
+  padding: 20px 10px 50px 5px;
+}
+
+#block-yui_3_17_2_6_1446759165758_15240{
+  padding: 20px 10px 50px 5px; 
+}
+
+#block-yui_3_17_2_4_1452884802259_6839{
+  padding: 20px 10px 50px 5px; 
+}
+@media only screen and (max-width: 800px) {
+  .banner-thumbnail-wrapper {
+    display: none;
+  }
+  #logoImage{
+  display: none;
+}
+}
+
+/*iframe responsive designs*/
+
+<style>
+@media (max-width: 550px) {
+    .big-container {
+        display: none;
+    }
+}
+@media (min-width: 550px) {
+    .small-container {
+        display: none;
+    }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+
